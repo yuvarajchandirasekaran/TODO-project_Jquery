@@ -71,7 +71,7 @@ $(document).ready(function () {
         else {
             $(`.item[data-target="${itemId}"]`).animate({ left: '50px', opacity: '0.8' }).fadeOut();
         }
-        $('.alert-msg').text('Successfully deleted').css('color', 'green');
+        $('.alert-msg').text('Successfully deleted').css('color', 'red');
         hideErr()
     }
 
